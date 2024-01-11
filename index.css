@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+  background-color: #FCEDDA;
+}
+body main {
+  background-color: #FFF;
+  width: 60%;
+  border: 1px solid red;
+  margin: 2rem auto;
+  padding: 4rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 7px 11px 5px -4px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 7px 11px 5px -4px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 7px 11px 5px -4px rgba(0, 0, 0, 0.55);
+}
+body main #form-content {
+  margin: 1rem auto;
+}
+body main #form-content input {
+  border: none;
+  border-bottom: 2px solid #f67b2a;
+  display: block;
+  margin: 0.5rem auto;
+}
+body main #form-content input:focus {
+  outline: none;
+}
+body main #form-content #result {
+  margin: 1rem auto;
+}
+body main #form-content button {
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease;
+}
+body main #form-content button:hover {
+  transform: scale(1.1);
+}
+body main #note {
+  text-align: justify;
+  border-radius: 6px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  width: 70%;
+  color: #FCEDDA;
+  background-color: #EE4E34;
+}
+
+@media (max-width: 780px) {
+  body main {
+    width: 80%;
+    padding: 3rem;
+  }
+  body main input {
+    display: block;
+    margin: 1rem auto;
+  }
+}/*# sourceMappingURL=index.css.map */
