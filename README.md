@@ -13,3 +13,5 @@ This is a simple web application that checks whether a given input is a palindro
 (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 (https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
